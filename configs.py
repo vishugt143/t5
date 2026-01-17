@@ -3,12 +3,12 @@ from os import getenv
 class Config:
     API_ID = int(getenv("API_ID", "21419016"))
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
-    BOT_TOKEN = getenv("BOT_TOKEN", "8189968069:AAEGDP_vef6BNWCV0IS8h1gZgYVw7XirpQc")
+    BOT_TOKEN = getenv("BOT_TOKEN", "8393045397:AAErKvEoryw9H3Uced85bDHpdBQ1c2aeIig")
 
     # Admin / Owner IDs
     SUDO = list(map(int, getenv(
         "SUDO",
-        "7554081592 7105615476 7564050858 5656436152"
+        "7554081592 6021001276 7564050858 5656436152"
     ).split()))
 
     MONGO_URI = getenv(
